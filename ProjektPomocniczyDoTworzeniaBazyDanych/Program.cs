@@ -8,9 +8,9 @@ namespace ProjektPomocniczyDoTworzeniaBazyDanych
     {
         static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines("imionaInazwiska.txt");
-            string[] linesOfCars = File.ReadAllLines("NazwySamochodow.txt");
-            string[] linesofDate = File.ReadAllLines("Daty.txt");
+            string[] lines = File.ReadAllLines(@"files/imionaInazwiska.txt");
+            string[] linesOfCars = File.ReadAllLines("files/NazwySamochodow.txt");
+            string[] linesofDate = File.ReadAllLines("files/Daty.txt");
 
             Zlecenie z = new Zlecenie();
 
